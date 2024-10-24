@@ -1,0 +1,36 @@
+.form-container {
+   border: 1px solid black;
+   padding: 10px;
+   max-width: 500px;
+   margin: 50px auto;
+   background-color: #f9f9f9;
+  }
+  .form-grp {
+    margin-bottom: 15px;
+  }
+  label {
+    display:block;
+    margin-bottom: 5px;
+  }
+  input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 5px;
+  }
+  button {
+    background-color: rgb(146, 167, 146);
+    padding: 15px;
+    width: 50%;
+    color: white;
+    cursor: pointer;
+  }
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  @media (max-width:600px){
+    .form-container {
+        margin: 20px;
+        padding: 15px;
+      }
+  }
